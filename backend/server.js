@@ -9,7 +9,7 @@ const { initGameManager } = require('./gameManager');
 const app = express();
 const isProduction = process.env.NODE_ENV === 'production'
   || fs.existsSync(path.join(__dirname, '../frontend/dist/index.html'));
-const clientOrigin = process.env.CLIENT_ORIGIN || (isProduction ? false : '*');
+const clientOrigin = process.env.CLIENT_ORIGIN || '*';
 
 app.use(cors({
   origin: clientOrigin,
