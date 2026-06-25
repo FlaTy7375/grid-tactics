@@ -1,0 +1,30 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="deep" x1="0" y1="0" x2="256" y2="256" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0c4a6e"/>
+      <stop offset="0.45" stop-color="#0369a1"/>
+      <stop offset="1" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="ripples" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M0 32C16 24 32 40 64 32" stroke="#7dd3fc" stroke-opacity="0.22" stroke-width="2" fill="none"/>
+      <path d="M0 48C16 40 32 56 64 48" stroke="#bae6fd" stroke-opacity="0.16" stroke-width="1.5" fill="none"/>
+      <path d="M0 16C16 8 32 24 64 16" stroke="#38bdf8" stroke-opacity="0.14" stroke-width="1.5" fill="none"/>
+    </pattern>
+    <pattern id="sparkle" width="128" height="128" patternUnits="userSpaceOnUse">
+      <circle cx="18" cy="22" r="1.2" fill="#e0f2fe" fill-opacity="0.55"/>
+      <circle cx="74" cy="38" r="0.9" fill="#ffffff" fill-opacity="0.45"/>
+      <circle cx="102" cy="88" r="1.1" fill="#bae6fd" fill-opacity="0.5"/>
+      <circle cx="42" cy="96" r="0.8" fill="#ffffff" fill-opacity="0.35"/>
+    </pattern>
+  </defs>
+  <rect width="256" height="256" fill="url(#deep)"/>
+  <rect width="256" height="256" fill="url(#ripples)"/>
+  <rect width="256" height="256" fill="url(#sparkle)"/>
+  <rect width="256" height="96" fill="url(#shine)"/>
+  <path d="M0 180C42 168 84 192 128 180C172 168 214 192 256 180V256H0Z" fill="#075985" fill-opacity="0.28"/>
+  <path d="M0 210C36 200 72 218 108 210C144 202 180 218 256 210V256H0Z" fill="#0c4a6e" fill-opacity="0.22"/>
+</svg>
