@@ -1,4 +1,4 @@
-﻿body:has(.game-stage--session) {
+body:has(.game-stage--session) {
   overflow: hidden;
 }
 
